@@ -1,0 +1,32 @@
+from main import Cassette, Facade
+
+facade_v = Facade({
+    1: [Cassette(1036, 385), Cassette(1085, 385), Cassette(430, 385), Cassette(1195, 385)],
+    2: [Cassette(1036, 620), Cassette(1085, 620), Cassette(430, 620), Cassette(1195, 620)],
+    3: [Cassette(1036, 620), Cassette(1085, 620), Cassette(430, 620), Cassette(1195, 620)],
+    4: [Cassette(1036, 620), Cassette(1085, 620), Cassette(430, 620), Cassette(1195, 620)],
+    5: [Cassette(1036, 620), Cassette(1085, 620), Cassette(430, 620), Cassette(1195, 620)],
+    6: [Cassette(1036, 620), Cassette(1085, 620), Cassette(430, 620), Cassette(1195, 620)],
+    7: [Cassette(1430, 620), Cassette(1420, 620), Cassette(1036, 620), *Cassette(1420, 620)*4, Cassette(1238, 620),
+        *Cassette(1420, 620)*4, Cassette(1148, 620), *Cassette(1420, 620)*3, Cassette(1161, 620), Cassette(1220, 620)],
+    8: [Cassette(1430, 655), Cassette(1420, 655), Cassette(1036, 655), *Cassette(1420, 655)*4, Cassette(1238, 655),
+        *Cassette(1420, 655)*4, Cassette(1148, 655), *Cassette(1420, 655)*3, Cassette(1161, 655), Cassette(1220, 655)],
+    9: [Cassette(1430, 655), Cassette(1420, 655), Cassette(1036, 655), *Cassette(1420, 655)*4, Cassette(1238, 655),
+        *Cassette(1420, 655)*4, Cassette(1148, 655), *Cassette(1420, 655)*3, Cassette(1161, 655), Cassette(1220, 655)],
+    10: [Cassette(1430, 655), Cassette(1420, 655), Cassette(1036, 655), *Cassette(1420, 655)*4, Cassette(1238, 655),
+        *Cassette(1420, 655)*4, Cassette(1148, 655), *Cassette(1420, 655)*3, Cassette(1161, 655), Cassette(1220, 655)],
+    11: [Cassette(1430, 655), Cassette(1420, 655), Cassette(1036, 655), *Cassette(1420, 655)*4, Cassette(1238, 655),
+        *Cassette(1420, 655)*4, Cassette(1148, 655), *Cassette(1420, 655)*3, Cassette(1161, 655), Cassette(1220, 655)],
+    12: [*Cassette(1036, 595)*2, Cassette(480, 595), Cassette(1220, 595)],
+    13: [*Cassette(1036, 655)*2, Cassette(480, 655), Cassette(1220, 655)],
+    14: [*Cassette(1036, 655)*2, Cassette(480, 655), Cassette(1220, 655)],
+    15: [Cassette(1430, 550), Cassette(1420, 550), Cassette(1036, 550), *Cassette(1420, 550)*4, Cassette(1238, 550),
+         *Cassette(1420, 550)*4, Cassette(1148, 550), *Cassette(1420, 550)*3, Cassette(1161, 550), Cassette(1220, 550)],
+    16: [Cassette(1430, 550), Cassette(1420, 550), Cassette(1036, 550), *Cassette(1420, 550)*4, Cassette(1238, 550),
+         *Cassette(1420, 550)*4, Cassette(1148, 550), *Cassette(1420, 550)*3, Cassette(1161, 550), Cassette(1220, 550)],
+    17: [Cassette(730, 690), Cassette(1420, 690), Cassette(1036, 690), *Cassette(1420, 690)*4, Cassette(1238, 690),
+         *Cassette(1420, 690)*4, Cassette(1148, 690), *Cassette(1420, 690)*3, Cassette(1161, 690), Cassette(1220, 690)],
+    18: [Cassette(730, 720), Cassette(1420, 720), Cassette(1036, 720), *Cassette(1420, 720)*4, Cassette(1238, 720),
+         *Cassette(1420, 720)*4, Cassette(1148, 720), *Cassette(1420, 720)*3, Cassette(1161, 720), Cassette(1220, 720)],
+})
+
